@@ -5,7 +5,7 @@ html {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto Mono', monospace;
-    background-color: #DDDDDD;
+    background-color: #c7c7c7;
 }
 body{
     display: grid;
@@ -24,6 +24,7 @@ header{
 
 form {
     padding: 30px;
+    margin-top: -20px;
 }
 
 section {
@@ -57,6 +58,9 @@ button {
     font-size: 16px;
     margin-top: 20px;
     cursor: pointer;
+}
+.btn-altura {
+    width: 100%;
 }
 
 button:hover{

@@ -28,12 +28,13 @@ form {
 }
 
 section {
-    background-color: #222831;
+    background-color: #6c7b91;
     max-width: 400px;
     color: #DDDDDD;
     max-height: 500px;
     padding: 20px;
     margin: 20px 20px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     box-shadow: 10px 10px 0px -2px rgba(0,0,0,1);

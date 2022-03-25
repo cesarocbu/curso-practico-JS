@@ -33,7 +33,7 @@ section {
     color: #DDDDDD;
     max-height: 530px;
     padding: 20px;
-    margin: 0 20px;
+    margin: 20px 20px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;

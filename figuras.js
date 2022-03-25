@@ -101,7 +101,8 @@ function calcularPerimetroCuadrado(){
     const value = input.value;
 
     const perimetro = perimetroCuadrado(value);
-    alert("El perimetro de tu cuadrado es: " + perimetro.toFixed(2));
+    const resultCua = document.getElementById("resultCua");
+    resultCua.innerText = "El perímetro de tu cuadrado es de: " + perimetro.toFixed(2);
 }
 
 function calcularAreaCuadrado(){
@@ -109,7 +110,8 @@ function calcularAreaCuadrado(){
     const value = input.value;
 
     const area = areaCuadrado(value);
-    alert("El area de tu cuadrado es: " + area.toFixed(2));
+    const resultCua = document.getElementById("resultCua");
+    resultCua.innerText = "El área de tu cuadrado es: " + area.toFixed(2);
 }
 
 //Triangulo
@@ -124,7 +126,8 @@ function calcularPerimetroTriangulo(){
     const baseT = parseInt(baseTri.value);
 
     const perimetro = perimetroTriangulo(lado1T, lado2T, baseT);
-    alert("El perimetro de tu triangulo es de: " + perimetro.toFixed(2));
+    const resultTri = document.getElementById("resultTri");
+    resultTri.innerText = "El perímetro de tu Triángulo es de: " + perimetro.toFixed(2);
 }
 
 
@@ -138,7 +141,8 @@ function calcularAreaTriangulo(){
     const altura = parseInt(alturaT.value);
 
     const area = areaTriangulo(baseT, altura);
-    alert("El area de tu triangulo es de: " + area.toFixed(2));
+    const resultTri = document.getElementById("resultTri");
+    resultTri.innerText = "El área de tu triangulo es de: " + area.toFixed(2);
 }
 
 function calcularAlturaTriangulo(){
@@ -152,7 +156,8 @@ function calcularAlturaTriangulo(){
     const baseT = parseInt(baseTri.value);
 
     const altura = alturaTriangulo(lado1T, lado2T, baseT);
-    alert("La altura de tu triángulo isosceles es de: " + altura.toFixed(2));
+    const resultTri = document.getElementById("resultTri");
+    resultTri.innerText = "La altura de tu triangulo isosceles es de: " + altura.toFixed(2);
 }
 
 
@@ -163,7 +168,8 @@ function calcularPerimetroCirculo(){
     const radioC = parseInt(radioCirculo.value);
 
     const perimetro = perimetroCirculo(radioC);
-    alert("El perimetro de tu Circulo es de: " + perimetro.toFixed(2));
+    const resultCir = document.getElementById("resultCir");
+    resultCir.innerText = "El perímetro de tu Circulo es de: " + perimetro.toFixed(2);
 
 }
 
@@ -173,7 +179,8 @@ function calcularAreaCirculo (){
     const radioC = parseInt(radioCirculo.value);
 
     const area = areaCirculo(radioC);
-    alert("El area de tu Circulo es de: " + area.toFixed(2));
+    const resultCir = document.getElementById("resultCir");
+    resultCir.innerText = "El área de tu Circulo es de: " + area.toFixed(2);
 }
 
 

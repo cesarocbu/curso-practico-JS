@@ -31,9 +31,9 @@ section {
     background-color: #6c7b91;
     max-width: 400px;
     color: #DDDDDD;
-    max-height: 500px;
+    max-height: 530px;
     padding: 20px;
-    margin: 20px 20px;
+    margin: 0 20px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
